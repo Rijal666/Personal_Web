@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <header className="py-8">
+    <header className="lg:py-8">
       <div className="lg:px-20 mx-auto flex items-center justify-between ">
         <img src={logo} alt="" width="100px" />
         <Link to="contact" smooth={true}>
